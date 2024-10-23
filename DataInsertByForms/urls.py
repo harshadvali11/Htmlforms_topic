@@ -21,6 +21,9 @@ from app.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('insertTopic/',insertTopic,name='insertTopic'),
+    path('insert_webpage/',insert_webpage,name='insert_webpage'),
+    path('select_multiple/',select_multiple,name='select_multiple'),
+    path('checkbox/',checkbox,name='checkbox'),
     
 ]
 
